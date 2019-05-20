@@ -214,14 +214,15 @@ class CSharpObject(ObjectDescription):
             index_format = '{parent} (C# {namespace});{text}' \
                 if (type_parent and type_parent.parent and (type_parent.name == objname and self.objtype == 'type') \
                     and not type_parent.override) or (parent and not type_parent) \
-                else '{name} (C# {type});{text}' if type_parent and type_parent.name else '{text}'
+                else '{name} (C# {type} {in_text} {parent});{text}' if type_parent and type_parent.name else '{text}'
             self.indexnode['entries'].append(('single', index_format.format(
                 parent=type_parent.parent if type_parent else parent if parent else '',
                 namespace=_('namespace'),
                 text=index_text,
                 name=type_parent.override if type_parent and type_parent.override \
                 else type_parent.name if type_parent else '',
-                type=_(type_parent.type) if type_parent else ''
+                type=_(type_parent.type) if type_parent else '',
+                in_text=_('in')
             ), anchor, None, None))
 
     def get_fullname(self, name):
@@ -737,7 +738,7 @@ def setup(app):
     locale_dir = path.join(package_dir, 'locales')
     app.add_message_catalog('sphinxsharp', locale_dir)
     return {
-        'version': '1.0.0',
+        'version': '1.0.1',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }

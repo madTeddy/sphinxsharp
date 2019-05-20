@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0\n"
+"Project-Id-Version: 1.0.1\n"
 "POT-Creation-Date: 2019-04-06 22:07+0300\n"
 "Last-Translator: ANDREY MIGNEVICH <andrey.mignevich@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: pygettext.py 1.5\n"
 
-
+#: sphinxsharp.py:225
+msgid "in"
+msgstr "в"
 
 #: sphinxsharp.py:223 sphinxsharp.py:307
 msgid "namespace"
