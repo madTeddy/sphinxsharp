@@ -17,7 +17,7 @@ setup(
   author = 'Andrey Mignevich',
   author_email = 'andrey.mignevich@gmail.com',
   url = 'https://github.com/madTeddy/sphinxsharp',
-  download_url = 'https://github.com/madTeddy/sphinxsharp/archive/v1.0.0.tar.gz',
+  download_url = 'https://github.com/madTeddy/sphinxsharp/archive/v1.0.1.tar.gz',
   keywords = ['Sphinx','Domain','CSharp','C#','Sphinxsharp'],
   install_requires=[
           'docutils',
