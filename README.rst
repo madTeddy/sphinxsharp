@@ -1,3 +1,7 @@
+.. image:: https://badge.fury.io/py/sphinxsharp.svg
+    :target: https://badge.fury.io/py/sphinxsharp
+    :alt: PyPI Version
+
 .. image:: https://readthedocs.org/projects/sphinxsharp-docs/badge/?version=latest
     :target: https://sphinxsharp-docs.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status

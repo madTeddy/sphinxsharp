@@ -1,6 +1,5 @@
 from setuptools import setup
 from os import path
-from glob import glob
 
 this_directory = path.abspath(path.dirname(__file__))
 with open(path.join(this_directory, 'README.rst'), encoding='utf-8') as f:
@@ -10,15 +9,15 @@ setup(
   name = 'sphinxsharp',
   packages = ['sphinxsharp'],
   include_package_data=True,
-  version = '1.0.1',
+  version = '1.0.2',
   license='MIT',
   description = 'CSharp (C#) domain for sphinx.',
   long_description=long_description,
   author = 'Andrey Mignevich',
   author_email = 'andrey.mignevich@gmail.com',
   url = 'https://github.com/madTeddy/sphinxsharp',
-  download_url = 'https://github.com/madTeddy/sphinxsharp/archive/v1.0.1.tar.gz',
-  keywords = ['Sphinx','Domain','CSharp','C#','Sphinxsharp'],
+  download_url = 'https://github.com/madTeddy/sphinxsharp/archive/refs/tags/v1.0.2.tar.gz',
+  keywords = ['Documentation','Sphinx','Domain','CSharp','C#','Sphinxsharp'],
   install_requires=[
           'docutils',
           'sphinx',
@@ -26,12 +25,14 @@ setup(
   classifiers=[
     'Development Status :: 5 - Production/Stable',
     'Intended Audience :: Developers',
-    'Topic :: Software Development :: Build Tools',
+    'Topic :: Documentation :: Sphinx',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7'
-  ],
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9'
+  ]
 )

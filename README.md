@@ -1,4 +1,5 @@
 # Sphinxsharp
+[![PyPI version](https://badge.fury.io/py/sphinxsharp.svg)](https://badge.fury.io/py/sphinxsharp)
 [![Documentation Status](https://readthedocs.org/projects/sphinxsharp-docs/badge/?version=latest)](https://sphinxsharp-docs.readthedocs.io/en/latest/?badge=latest)
 
 CSharp (C#) domain for Sphinx

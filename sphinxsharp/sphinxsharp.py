@@ -4,7 +4,7 @@
 
     Sphinxsharp Lite (with default styling)
 
-    :copyright: Copyright 2019 by MadTeddy
+    :copyright: Copyright 2021 by MadTeddy
 """
 
 import re
@@ -738,7 +738,7 @@ def setup(app):
     locale_dir = path.join(package_dir, 'locales')
     app.add_message_catalog('sphinxsharp', locale_dir)
     return {
-        'version': '1.0.1',
+        'version': '1.0.2',
         'parallel_read_safe': True,
         'parallel_write_safe': True,
     }
